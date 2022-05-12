@@ -1,0 +1,3 @@
+! 2022-03-14 https://web.telegram.org
+web.telegram.org##:xpath(//*[contains(concat(' ',@class,' '),' Message ')][not(*[contains(concat(' ',@class,' '),' ContextMenuContainer ')])][.//*[contains(concat(' ',@class,' '),' AnimatedSticker ') or contains(concat(' ',@class,' '),' Sticker ') and .//video]])
+web.telegram.org##:xpath(//*[following-sibling::*[@class='WebPage-text'][a[text()='YouTube']]])

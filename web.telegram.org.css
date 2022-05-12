@@ -1,0 +1,40 @@
+.Message {
+  margin-bottom: 0;
+}
+.MessageList .messages-container{
+  margin-left: 0;
+  margin-right: 0;
+  max-width: inherit;
+  width: inherit;
+}
+#MiddleColumn .middle-column-footer {
+  max-width: inherit;
+  width: inherit;
+}
+#middle-column-bg {
+  background-color: #d4d0c8;
+}
+.Message.own {
+  flex-direction: inherit;
+}
+.message-content {
+  max-width: inherit;
+  border-radius: inherit;
+}
+.theme-light #middle-column-bg::after {
+  display: none;
+}
+.Message>.message-content-wrapper {
+  width: 100%;
+}
+.message-content.media{
+  border: 2px gray solid;
+  margin: 0.5em;
+}
+.message-content.has-solid-background {
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+.message-content .text-content{
+  padding-bottom: 0.2em;
+}
