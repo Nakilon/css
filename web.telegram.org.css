@@ -28,7 +28,7 @@
 .Message>.message-content-wrapper {
   width: 100%;
 }
-.message-content.media{
+.message-content.media {
   border: 2px gray solid;
   margin: 0.5em;
 }
@@ -36,6 +36,9 @@
   padding-top: inherit;
   padding-bottom: inherit;
 }
-.message-content .text-content{
+.message-content .text-content {
   padding-bottom: 0.2em;
+}
+video[autoplay] {
+  display: none;
 }
