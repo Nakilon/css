@@ -21,7 +21,8 @@
   max-width: inherit;
   border-radius: inherit;
 }
-.theme-light #middle-column-bg::after {
+#middle-column-bg::after,
+#middle-column-bg::before {
   display: none;
 }
 .Message>.message-content-wrapper {
