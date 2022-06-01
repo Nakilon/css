@@ -21,10 +21,6 @@
   max-width: inherit;
   border-radius: inherit;
 }
-#middle-column-bg::after,
-#middle-column-bg::before {
-  display: none;
-}
 .Message>.message-content-wrapper {
   width: 100%;
 }
@@ -40,5 +36,13 @@
   padding-bottom: 0.2em;
 }
 video[autoplay] {
+  display: none;
+}
+#middle-column-bg::after,
+#middle-column-bg::before {
+  display: none;
+}
+.src-components-middle-MiddleColumn-module__background::after,
+.src-components-middle-MiddleColumn-module__background::before{
   display: none;
 }
