@@ -46,3 +46,7 @@ video[autoplay] {
 .src-components-middle-MiddleColumn-module__background::before{
   display: none;
 }
+#MiddleColumn *::after,
+#MiddleColumn *::before {
+  background-image: none;
+}
